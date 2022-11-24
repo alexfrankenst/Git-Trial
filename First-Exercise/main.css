@@ -1,0 +1,102 @@
+body {
+  background: gray;
+  font-family: sans-serif;
+}
+
+body .container {
+  background: rgba(219, 198, 198, 0.856);
+  height: 100vh;
+  width: 100vw;
+}
+
+body .container header {
+  background: white;
+  height: 10%;
+}
+
+body .container header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container header ul li {
+  padding: 2em;
+  font-size: 1.2em;
+  list-style: none;
+  margin-right: 1.2rem;
+}
+
+body .container header ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+body .container header ul li a:hover {
+  color: #b45464;
+}
+
+body .container header ul li .tooltiptext {
+  visibility: hidden;
+  position: absolute;
+  width: 250px;
+  color: white;
+  background: black;
+  text-align: center;
+  border-radius: 10px;
+  top: 70px;
+}
+
+body .container header ul li:nth-child(2):hover .tooltiptext {
+  visibility: visible;
+}
+
+body .container main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 75vh;
+  text-align: center;
+  margin-top: 0.5em;
+  font-size: 3em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container main .content {
+  width: 73%;
+  height: 100%;
+  border: 1px solid blue;
+}
+
+body .container main aside {
+  width: 25%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+body .container footer {
+  text-align: center;
+  height: 100px;
+  background: cyan;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container footer h1 {
+  padding: 1.5%;
+}
+/*# sourceMappingURL=main.css.map */
